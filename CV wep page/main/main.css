@@ -1,0 +1,343 @@
+
+* {
+    
+   
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(image/5166950.jpg ) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1cm;
+}
+.profiletext1{
+    margin-left: 0.5cm;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+.profiletext1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    font:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.profiletext1 h1 span{
+    font-size: 0.6em;
+    
+    font-weight: 300;
+    
+
+}
+.iconref{
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+
+    
+
+}
+.container {
+    
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: 2px solid #f8f8f8;
+    
+    
+    
+}
+.container img
+{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+
+}
+.icon{
+    justify-content:left;
+   
+    position: absolute;
+    margin-top: 22cm;
+   
+   } 
+.p{
+    background-color:rgb(25, 105, 103);
+    color: rgb(255, 255, 255);
+    margin-left: 1cm;
+    justify-content:left;
+    position: absolute;
+    margin-top: 21cm;
+
+}
+
+    
+
+.icon img{
+    justify-content:left;
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    position: absolute;
+    object-fit: cover;  
+    
+
+
+    
+}
+.head{
+    background-color: rgb(255, 255, 255);
+   width: 1000px;
+   height: 50px;
+   margin-top: -10cm;
+ 
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+max-height:944.8819px;
+max-width: 377.9528px;
+padding: 0.5cm;
+margin-top: 0cm;
+border-radius: 20px;
+position: static;
+
+
+
+overflow: hidden;
+}
+
+.pmsg{
+    color: rgb(0, 0, 0);
+    justify-items: right;
+    background-color: white;
+    border-radius:10px;
+    border: #196967 solid 5px;
+}
+.pmsg h1{
+    color: rgb(0, 0, 0);
+    justify-items: right;
+    margin-left: 90%;
+
+}
+
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    margin-left:15%;
+}
+.profiletext .imgbx{
+    position: relative;
+    
+   width: 200px;
+   height: 200px;
+   border-radius:25%;
+   overflow: hidden;
+
+
+}
+.profiletext .imgbx img{
+    position: absolute;
+    
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+
+
+}
+.profiletext h2{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.profiletext h2 span {
+    color: black;
+    font-size: 0.8em;
+    font-weight: 300;
+    border-bottom: 1px solid  rgb(0, 0, 0);
+
+}
+
+
+.contactInfo{
+    position: relative;
+    margin-left: -1cm;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.year{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.right{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+height: 25cm;
+width: 30cm;
+margin-left: 2cm;
+padding: 0.5cm;
+margin-top: 0.5cm;
+border-radius: 3%;
+
+
+}
+.about-me-title{
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 0.5cm;
+}
+
+
+.contactInfo ul  .ic{
+    display:inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(25, 105, 103);
+}
+.texti{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    width: 250px;
+  
+    margin-top: -950px
+}
+
+button{
+    padding: 12px;
+    width: 190px;
+    cursor: pointer;
+    background: #f8f8f8;
+    color:rgb(25, 105, 103);
+    transition: .5s ease;
+    border-radius: 10px;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset , 
+                0 0 10px 4px #799be6;
+                border-radius:  10px;
+}
+.back-btn{
+    padding: 12px;
+    width: 190px;
+    cursor: pointer;
+    color:#000000;
+    transition: .5s ease;
+    border-radius: 10px;
+    position: relative;
+   
+    
+
+}
+.back-btn-details{
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    color:#000000;
+    transition: .5s ease;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -950px;
+    margin-left: -10px;
+
+}
+.back-btn-details button{
+  width: 50px;
+  height:50px;
+
+}
+.contactInfolanguages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: gray;
+    display: block;
+    margin-top: 5px;
+  
+
+
+}
+.contactInfolanguages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #196967;
+   
+}
+.percent1{
+    position: relative;
+    width: 30%;
+    height:6px;
+    background: rgb(158, 158, 158);
+    display: block;
+    margin-top: 5px;
+   
+  
+
+
+}
+.percent1 div{
+    position: absolute;
+    height: 100%;
+    background: #196967;
+   
+}
+
+
+.back-btn-cs{
+    position: relative;
+    margin-left: -200px;
+    margin-top: -950px;
+}
+
+.navbar{
+    position: relative;
+    color: wheat;
+    justify-content:right;
+    
+}

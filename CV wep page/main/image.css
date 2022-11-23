@@ -1,0 +1,74 @@
+body{
+    background-image: url(image/5166950.jpg ) ;
+    display: flex;
+   
+    min-height: 100vh;
+    padding: 1cm;
+}
+div{
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 12px;
+    width: 190px;
+    cursor: pointer;
+    background: #f8f8f8;
+    color:rgb(25, 105, 103);
+    transition: .5s ease;
+    border-radius: 10px;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset , 
+                0 0 10px 4px #799be6;
+                border-radius:  10px;
+}
+.back-btn{
+    padding: 12px;
+    width: 190px;
+    cursor: pointer;
+    color:#000000;
+    transition: .5s ease;
+    border-radius: 10px;
+    position: relative;
+   
+    
+
+}
+.back-btn-details{
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    color:#000000;
+    transition: .5s ease;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -950px;
+    margin-left: -10px;
+
+}
+.back-btn-details button{
+  width: 50px;
+  height:50px;
+
+}
+.componants1{
+    display: flex;
+    flex-wrap:wrap;
+    padding:5px;
+    gap:1em;
+    object-fit:cover;
+
+   
+}
+.i{
+    flex: 1 1 50px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+
+}

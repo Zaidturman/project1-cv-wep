@@ -1,0 +1,29 @@
+body{
+    background-image: url(../image/5166950.jpg );
+    align-items: center;
+    
+}
+img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.section {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll !important;
+    background: #ffffff;
+    filter: Alpha(opacity=50);
+}
+
+.section .paragraph {
+    background-color: white;
+    width: 90%;
+    padding: 15px 10px;
+    margin-left:5% ;
+    margin-right: 5%;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}

@@ -1,0 +1,152 @@
+* {
+    
+   
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../image/5166950.jpg ) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1cm;
+}
+
+.leftcs{
+   
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+height:800px;
+width: 100%;
+padding: 20px;
+border: #196967 solid 2px;
+border-radius:10px;
+justify-content: right;
+
+    margin-top: -170%;
+
+}
+.leftcs img {
+   
+    width: 100%;
+
+}
+.leftcs div table{
+    border: #196967 solid 2px;
+    border-radius: 5px;
+    margin: 10px ;
+    margin-left: 25%;
+    text-align: center;
+    padding: 4PX;
+    
+}
+.leftcs div h4{
+   
+    text-align:right;
+    padding: 4PX;
+    
+}
+.rightcs{
+  
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height:800px;
+    width:222%;
+padding: 20px;
+border: #196967 solid 2px;
+border-radius:10px;
+    justify-content:left;
+    margin: 50px;
+    margin-left: 105%;
+    
+
+}
+
+  
+    
+
+
+.msg{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    padding-right: 15px;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.v{
+    width: 115%;
+    height:65%;
+}
+.top{
+    position:static;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+height:70px;
+width:330%;
+margin-top: 0%;
+padding: 20px;
+border: #196967 solid 2px;
+border-radius:10px;
+    justify-content:left;
+
+}
+
+.comp{
+    width: 500px; 
+    margin-left: -70%;
+}
+
+.msg1{
+margin-left:70%;
+position: relative;
+color: rgb(0, 0, 0);
+margin-right: 0%;
+padding-right: 15px;
+text-decoration-line: none;
+display: flex;
+    align-items: center;
+}
+
+
+
+
+
+  
+    .container{
+        position: relative;
+        margin-left: 10%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align:right;
+        padding: 4PX;
+
+
+    }
+    .btn{
+    padding: 12px;
+    width: 60px;
+    
+    cursor: pointer;
+    background: #f8f8f8;
+    color:rgb(25, 105, 103);
+    transition: .5s ease;
+    border-radius: 10px;
+    font-size: 5px;
+    
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset , 
+                0 0 10px 4px #799be6;
+                border-radius:  10px;
+}
+
+

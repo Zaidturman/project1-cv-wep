@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url(../image/5166950.jpg);
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.box {
+    width: 300px;    
+    background-color: white;
+
+}
+.box h2 {
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 700px;
+    background-color: rgb(18, 2, 49);
+    color:rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.box ul li {
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 5px 25px rgb(0,0,0,.1) ;
+}
+ a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.box ul li:hover {
+    transform: scale(1.05);
+    z-index: 100;
+    background-color: rgb(216, 208, 226);
+    box-shadow: 0 5px 25px rgb(0,0,0,.2);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+
+.intro {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    height: 300px;
+    background-color: white;
+}
+.work {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    height: 400px;
+    background-color: white;
+}
+.branch {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    height: 200px;
+    background-color: white;
+}
+
+ h2 {
+    background-color: rgb(18, 2, 49) ;
+    color: white;
+    padding: 10px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+p {
+    border-color: black;
+   padding: 20px 20px ;
+   font-weight: 900;
+}
+.list {
+   margin-right: 70px;
+   font-weight: 900;
+}
+button {
+    align-items: left;
+    padding :15px 10px;
+    font-size: 20px;
+    width: 15%;
+    margin-right: 560px;
+     background-color: rgb(18, 2, 49) ;
+
+}
+button a {   
+
+    text-decoration: none;
+    color: white;
+}
